@@ -10,9 +10,18 @@
 
 @implementation DDAppDelegate
 
+@synthesize navbar;
+@synthesize webView;
+@synthesize window;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSString *urlString = @"http://www.dandean.com";
+    [[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlString]]];
+}
+
+- (IBAction)go:(id)sender {
+    [[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[navbar stringValue]]]];
 }
 
 @end

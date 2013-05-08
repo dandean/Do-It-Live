@@ -17,6 +17,7 @@
 		B585BC511739F19200CCE72B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B585BC311739F19100CCE72B /* Cocoa.framework */; };
 		B585BC591739F19200CCE72B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B585BC571739F19200CCE72B /* InfoPlist.strings */; };
 		B585BC5C1739F19200CCE72B /* Do_It_LiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B585BC5B1739F19200CCE72B /* Do_It_LiveTests.m */; };
+		B585BC661739F44700CCE72B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B585BC651739F44700CCE72B /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B585BC581739F19200CCE72B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B585BC5A1739F19200CCE72B /* Do_It_LiveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Do_It_LiveTests.h; sourceTree = "<group>"; };
 		B585BC5B1739F19200CCE72B /* Do_It_LiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Do_It_LiveTests.m; sourceTree = "<group>"; };
+		B585BC651739F44700CCE72B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B585BC661739F44700CCE72B /* WebKit.framework in Frameworks */,
 				B585BC321739F19100CCE72B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +78,7 @@
 		B585BC251739F19100CCE72B = {
 			isa = PBXGroup;
 			children = (
+				B585BC651739F44700CCE72B /* WebKit.framework */,
 				B585BC371739F19100CCE72B /* Do It Live */,
 				B585BC541739F19200CCE72B /* Do It LiveTests */,
 				B585BC301739F19100CCE72B /* Frameworks */,
